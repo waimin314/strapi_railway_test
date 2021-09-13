@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_time_range_component_time_ranges",
+  "info": {
+    "name": "time_range",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "start": {
+      "type": "time"
+    },
+    "end": {
+      "type": "time"
+    }
+  }
+}

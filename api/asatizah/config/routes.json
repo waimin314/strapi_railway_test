@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/asatizahs",
+      "handler": "asatizah.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/asatizahs/count",
+      "handler": "asatizah.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/asatizahs/:id",
+      "handler": "asatizah.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/asatizahs",
+      "handler": "asatizah.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/asatizahs/:id",
+      "handler": "asatizah.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/asatizahs/:id",
+      "handler": "asatizah.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

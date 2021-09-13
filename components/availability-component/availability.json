@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_availability_component_availabilities",
+  "info": {
+    "name": "availability",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "day": {
+      "type": "enumeration",
+      "enum": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "unique": true
+    },
+    "time_range": {
+      "type": "component",
+      "repeatable": true,
+      "component": "time-range-component.time-range"
+    }
+  }
+}

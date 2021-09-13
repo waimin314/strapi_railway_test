@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "asatizahs",
+  "info": {
+    "name": "Asatizah",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "availability": {
+      "type": "component",
+      "repeatable": true,
+      "component": "availability-component.availability"
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "association": {
+      "type": "string"
+    },
+    "Bio": {
+      "type": "text"
+    },
+    "email": {
+      "type": "email"
+    },
+    "bookings": {
+      "columnName": "name",
+      "via": "asatizah",
+      "collection": "booking"
+    }
+  }
+}

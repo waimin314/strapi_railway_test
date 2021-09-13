@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bookings",
+  "info": {
+    "name": "booking"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "time": {
+      "type": "datetime"
+    },
+    "email": {
+      "type": "email"
+    },
+    "asatizah": {
+      "via": "bookings",
+      "model": "asatizah"
+    }
+  }
+}
